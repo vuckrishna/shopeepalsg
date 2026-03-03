@@ -1,0 +1,120 @@
+Notes: 
+
+Documenting the ShopeePal website building 
+
+Task 1: 
+
+Create files structure
+
+prompt: 
+
+create html, css, javascript files linked together
+
+Task 2 : 
+
+Creating a navigation bar
+
+prompt: 
+
+create a navigation bar with sample Logo, website name, Deals, Monthly Deals, About, Blogs links. Sample logo and website name acts as a homepage link.
+
+change the nav bar margin to 0, without any space from top and sides
+
+ask: show me some variants of light orange for the website theme colour 
+
+My Free Logo maker website: made a logo and recommended color pallete
+
+#ff9a00
+
+#ffffff
+
+#ffae33
+
+#cc7b00
+
+#e6e6e6
+
+#ffc266
+
+after logo is created and used the colour palette also changed according to the recommenaations
+
+create a hamburger menu of navbar for mobile and tablet devices 
+
+changes and imported new font
+
+add search input with rounded corners and search bar icon at the left of the navigation bar
+
+For mobile and tablets devices reverse the layout hamburger menu to the right and search bar to the left
+
+done soem changes to layout for hamburger menu and for smaller devices
+
+Task 3:
+
+Build intro page
+
+prompt: 
+
+build an introduction section with a picture and a paragraph 
+
+adding intro content
+
+Discover curated deals and monthly specials tailored to your needs. ShopeePal brings
+you a delightful shopping experience with handpicked offers, insights, and updates
+from our community blog. Start exploring and find something you love today.
+
+Discover Hugely Discounted products from Shopee website singapore. 
+ShopeePal shows you the best prices of your favourite products during sales or on random prices cutdowns.
+You can save from $10 SGD upto $250 SGD only by checking the prices on ShopeePal and waiting for the next sale to match the discounted price.
+Shopee itself brings $50 to $100 SGD discounts on coupons. ShopeePal is a great friend which saves you a lot of your hard earned money.
+
+adjust the color scheme and layout for intro section
+
+Task 4:
+
+Build featured products from deals page
+
+prompt: 
+
+build a featured products cards list of 2 rows, 4 products per row, with cards having a picture, on the details below create Original price, Discounted price, Coupon discount.
+
+make the product cards as hyperlinks to another website
+
+Task 5: 
+
+build a scrollable text container only for mobile devices for the intro-text inside the intro section
+
+Task 6: 
+
+Build a small brief of about section 
+
+Task 7: 
+
+build a simple footer section 
+
+Task 8: 
+
+Build a html page for Deals and link to nav-link deals to open in another page
+
+Task 9: 
+
+Build a html page for Monthly deals should be very similar to current deals page but will have monthly featured deals listed 
+
+Task 10: 
+
+To implement the search feature in 3 html pages. 
+
+prompt - create search feature on deals.html page using the nav-search element in navigation to display the product card based on match search input.
+
+Task 11: 
+
+prompt: create deals.json file and implement deals.html product cards data to be fetched from the deals.json file.
+
+Task 12: 
+
+prompt: create monthlydeals.json file and implement monthlydeals.html product cards data to be fetched from the monthlydeals.json file, add month element to fetch different month lists and display in differnt month sections.
+
+Task 13: 
+
+prompt: create a basic form on the index.html page after the about section for viewers to send their name, email and message.
+
+using https://formsubmit.co/ for form submission

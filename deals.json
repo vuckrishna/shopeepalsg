@@ -1,0 +1,36 @@
+{
+  "deals": [
+    {
+      "image": "./assets/product4.jpg",
+      "name": "Google Pixel 10 Pro Fold",
+      "originalPrice": "$2,399.00",
+      "discountedPrice": "$1,809.00",
+      "couponDiscount": "Shopee Coupon -$260",
+      "link": "https://www.example.com/product4"
+    },
+    {
+      "image": "./assets/product1.jpg",
+      "name": "Samsung A26",
+      "originalPrice": "$358.00",
+      "discountedPrice": "$233.00",
+      "couponDiscount": "Shopee Coupon -$44.70",
+      "link": "https://www.example.com/product1"
+    },
+    {
+      "image": "./assets/product8.jpg",
+      "name": "OnePlus 13",
+      "originalPrice": "$1,199.00",
+      "discountedPrice": "$790.00",
+      "couponDiscount": "Shopee Coupon -$115.00",
+      "link": "https://www.example.com/product8"
+    },
+    {
+      "image": "./assets/product6.jpg",
+      "name": "Google Pixel 10 Pro",
+      "originalPrice": "$1,459.00",
+      "discountedPrice": "$1,105.99",
+      "couponDiscount": "Shopee Coupon -$130.00",
+      "link": "https://www.example.com/product6"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ShopeePal - Test Page</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary" data-menu-open="false">
+        <a class="brand" href="./index.html" aria-label="ShopeePal Home">
+          <span class="logo" aria-hidden="true">
+            <img class="logo-image" src="./assets/logo-edited.png" alt="ShopeePal Logo">
+          </span>
+          <!-- <span class="brand-name">ShopeePal</span> -->
+        </a>
+        <div class="nav-search" role="search">
+          <span class="search-icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+              <path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <input class="search-input" type="search" placeholder="Search products..." aria-label="Search products">
+        </div>
+        <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false" type="button">
+          <span class="nav-toggle-box" aria-hidden="true">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </span>
+          <span class="sr-only">Menu</span>
+        </button>
+        <ul id="primary-navigation" class="nav-links">
+          <li><a href="./deals.html">Deals</a></li>
+          <li><a href="./monthlydeals.html">Monthly Deals</a></li>
+          <!-- <li><a href="#about">About</a></li> -->
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+        </ul>
+      </nav>
+    </header>
+ 
+    <main>
+      <section class="intro">
+        <div class="intro-content">
+          <div class="intro-image">
+            <img src="./assets/intro.jpg" alt="People shopping online with ShopeePal" />
+          </div>
+          <div class="intro-text">
+            <h1>Welcome to ShopeePal</h1>
+            <p>
+              Discover Hugely Discounted products from Shopee website singapore. 
+            </p>
+            <p>
+              ShopeePal shows you the best prices of your favourite products during sales or on random prices cutdowns.
+            </p>
+            <p>
+              You can save from $10 SGD upto $250 SGD only by checking the prices on ShopeePal and waiting for the next sale to match the discounted price.
+            </p>
+            <p>
+              Shopee itself brings $50 to $100 SGD discounts on coupons. 
+            </p>
+            <p>
+              ShopeePal is a great friend which saves you a lot of your hard earned money.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+    
+      
+      <section class="featured-products" id="deals">
+        <h2 class="section-title">Featured Deals</h2>
+        <div class="products-grid">
+          <a href="https://www.example.com/product1" target="_blank" rel="noopener noreferrer" class="product-card">
+            <img src="./assets/product1.jpg" alt="Product 1" />
+            <div class="product-details">
+              <div class="product-name">Samsung Galaxy A26</div>
+              <div class="price-row" id="price-row">
+                <span class="original-price">$358.00</span>
+                <span class="discounted-price">$233.00</span>
+              </div>
+              <div class="coupon-discount"> Shopee Coupon: -$44.70</div>
+            </div>
+          </a>
+          <a href="https://www.example.com/product2" target="_blank" rel="noopener noreferrer" class="product-card">
+            <img src="./assets/product2.jpg" alt="Product 2" />
+            <div class="product-details">
+              <div class="product-name">Samsung Galaxy A36</div>
+              <div class="price-row">
+                <span class="original-price">$438.00</span>
+                <span class="discounted-price">$293.00</span>
+              </div>
+              <div class="coupon-discount"> Shopee Coupon: -$45.00</div>
+            </div>
+          </a>
+          <a href="https://www.example.com/product3" target="_blank" rel="noopener noreferrer" class="product-card">
+            <img src="./assets/product3.jpg" alt="Product 3" />
+            <div class="product-details">
+              <div class="product-name">Samsung Galaxy A56</div>
+              <div class="price-row">
+                <span class="original-price">$538.00</span>
+                <span class="discounted-price">$350.00</span>
+              </div>
+              <div class="coupon-discount"> Shopee Coupon: -$45.00</div>
+            </div>
+          </a>
+          <a href="https://www.example.com/product4" target="_blank" rel="noopener noreferrer" class="product-card">
+            <img src="./assets/product4.jpg" alt="Product 4" />
+            <div class="product-details">
+              <div class="product-name">Google Pixel 10 Pro Fold</div>
+              <div class="price-row">
+                <span class="original-price">$2399.00</span>
+                <span class="discounted-price">$1809.00</span>
+              </div>
+              <div class="coupon-discount"> Shopee Coupon: -$260.00</div>
+            </div>
+          </a>
+          <a href="https://www.example.com/product5" target="_blank" rel="noopener noreferrer" class="product-card">
+            <img src="./assets/product5.jpg" alt="Product 5" />
+            <div class="product-details">
+              <div class="product-name">Google Pixel 10 Pro XL</div>
+              <div class="price-row">
+                <span class="original-price">$1749.00</span>
+                <span class="discounted-price">$1349.00</span>
+              </div>
+              <div class="coupon-discount"> Shopee Coupon: -$130.00</div>
+            </div>
+          </a>
+          <a href="https://www.example.com/product6" target="_blank" rel="noopener noreferrer" class="product-card">
+            <img src="./assets/product6.jpg" alt="Product 6" />
+            <div class="product-details">
+              <div class="product-name">Google Pixel 10 Pro</div>
+              <div class="price-row">
+                <span class="original-price">$1459.00</span>
+                <span class="discounted-price">$1105.99</span>
+              </div>
+              <div class="coupon-discount"> Shopee Coupon: -$130.00</div>
+            </div>
+          </a>
+          <a href="https://www.example.com/product7" target="_blank" rel="noopener noreferrer" class="product-card">
+            <img src="./assets/product7.jpg" alt="Product 7" />
+            <div class="product-details">
+              <div class="product-name">Google Pixel 10</div>
+              <div class="price-row">
+                <span class="original-price">$1339.00</span>
+                <span class="discounted-price">$960.00</span>
+              </div>
+              <div class="coupon-discount"> Shopee Coupon: -$130.00</div>
+            </div>
+          </a>
+          <a href="https://www.example.com/product8" target="_blank" rel="noopener noreferrer" class="product-card">
+            <img src="./assets/product8.jpg" alt="Product 8" />
+            <div class="product-details">
+              <div class="product-name">Oneplus 13</div>
+              <div class="price-row">
+                <span class="original-price">$1199.00</span>
+                <span class="discounted-price">$790.00</span>
+              </div>
+              <div class="coupon-discount"> Shopee Coupon: -$115.00</div>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="about-content">
+          <h2 class="section-title">About ShopeePal</h2>
+          <div class="about-text">
+            <p>
+              ShopeePal is your trusted companion for finding the best deals on Shopee Singapore. 
+              We track price drops, monitor sales, and curate the most valuable discounts to help 
+              you save money on your favorite products.
+            </p>
+            <p>
+              Our mission is simple: help you make smarter shopping decisions and maximize your savings 
+              without the hassle of constantly checking prices yourself.
+            </p>
+          </div>
+        </div> 
+      </section>
+
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Get in Touch</h2>
+        <form class="contact-form" action="https://formsubmit.co/udaycv333@gmail.com" method="post" aria-label="Contact form">
+          <div class="form-group">
+            <label for="contact-name">Name</label>
+            <input type="text" id="contact-name" name="name" required placeholder="Your name" autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Email</label>
+            <input type="email" id="contact-email" name="email" required placeholder="your@email.com" autocomplete="email">
+          </div>
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" required placeholder="Your message..." rows="5"></textarea>
+          </div>
+          <button type="submit" class="form-submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="./assets/logo-edited2.png" alt="ShopeePal logo" class="footer-logo">
+          <p>Your smart companion for snagging the sweetest Shopee deals.</p>
+        </div>
+        <div class="footer-links">
+          <span class="footer-heading">Quick Links</span>
+          <a href="#deals">Deals</a>
+          <a href="./monthlydeals.html">Monthly Deals</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a href="#blogs">Blogs</a>
+        </div>
+        <div class="footer-contact">
+          <span class="footer-heading">Stay in touch</span>
+          <a href="mailto:hello@shopeepal.com">hello@shopeepal.com</a>
+          <p>Made with ❤️ in Singapore</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="current-year"></span> ShopeePal. All rights reserved.</span>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
+
+
