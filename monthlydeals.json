@@ -10,7 +10,7 @@
           "originalPrice": "$1,749.00",
           "discountedPrice": "$1,349.00",
           "couponDiscount": "Shopee Coupon -$130.00",
-          "link": "https://www.example.com/product5"
+          "link": ""
         },
         {
           "image": "./assets/product2.jpg",
@@ -18,7 +18,7 @@
           "originalPrice": "$438.00",
           "discountedPrice": "$293.00",
           "couponDiscount": "Shopee Coupon -$45.00",
-          "link": "https://www.example.com/product2"
+          "link": ""
         },
         {
           "image": "./assets/product7.jpg",
@@ -26,7 +26,7 @@
           "originalPrice": "$1,339.00",
           "discountedPrice": "$960.00",
           "couponDiscount": "Shopee Coupon -$130.00",
-          "link": "https://www.example.com/product7"
+          "link": ""
         },
         {
           "image": "./assets/product3.jpg",
@@ -34,7 +34,7 @@
           "originalPrice": "$538.00",
           "discountedPrice": "$350.00",
           "couponDiscount": "Shopee Coupon -$45.00",
-          "link": "https://www.example.com/product3"
+          "link": ""
         }
       ]
     },
@@ -47,7 +47,7 @@
           "originalPrice": "$1,199.00",
           "discountedPrice": "$790.00",
           "couponDiscount": "Early bird voucher -$120.00",
-          "link": "https://www.example.com/product8"
+          "link": ""
         },
         {
           "image": "./assets/product4.jpg",
@@ -55,7 +55,7 @@
           "originalPrice": "$2,399.00",
           "discountedPrice": "$1,809.00",
           "couponDiscount": "Bank promo -$180.00",
-          "link": "https://www.example.com/product4"
+          "link": ""
         },
         {
           "image": "./assets/product1.jpg",
@@ -63,7 +63,7 @@
           "originalPrice": "$358.00",
           "discountedPrice": "$233.00",
           "couponDiscount": "Shopee coins rebate -$25.00",
-          "link": "https://www.example.com/product1"
+          "link": ""
         },
         {
           "image": "./assets/product6.jpg",
@@ -71,9 +71,10 @@
           "originalPrice": "$1,459.00",
           "discountedPrice": "$1,105.99",
           "couponDiscount": "Bundle coupon -$160.00",
-          "link": "https://www.example.com/product6"
+          "link": ""
         }
       ]
     }
   ]
 }
+
