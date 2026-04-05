@@ -5,7 +5,7 @@
       "summary": "We refresh this list every month so you can track the most reliable savings without chasing daily flash sales.",
       "deals": [
         {
-          "image": "./assets/product5.jpg",
+          "image": "/assets/product5.jpg",
           "name": "Google Pixel 10 Pro XL",
           "originalPrice": "$1,749.00",
           "discountedPrice": "$1,349.00",
@@ -13,7 +13,7 @@
           "link": ""
         },
         {
-          "image": "./assets/product2.jpg",
+          "image": "/assets/product2.jpg",
           "name": "Samsung Galaxy A36",
           "originalPrice": "$438.00",
           "discountedPrice": "$293.00",
@@ -21,7 +21,7 @@
           "link": ""
         },
         {
-          "image": "./assets/product7.jpg",
+          "image": "/assets/product7.jpg",
           "name": "Google Pixel 10",
           "originalPrice": "$1,339.00",
           "discountedPrice": "$960.00",
@@ -29,7 +29,7 @@
           "link": ""
         },
         {
-          "image": "./assets/product3.jpg",
+          "image": "/assets/product3.jpg",
           "name": "Samsung Galaxy A56",
           "originalPrice": "$538.00",
           "discountedPrice": "$350.00",
@@ -42,7 +42,7 @@
       "month": "January spotlight",
       "deals": [
         {
-          "image": "./assets/product8.jpg",
+          "image": "/assets/product8.jpg",
           "name": "OnePlus 13",
           "originalPrice": "$1,199.00",
           "discountedPrice": "$790.00",
@@ -50,7 +50,7 @@
           "link": ""
         },
         {
-          "image": "./assets/product4.jpg",
+          "image": "/assets/product4.jpg",
           "name": "Google Pixel 10 Pro Fold",
           "originalPrice": "$2,399.00",
           "discountedPrice": "$1,809.00",
@@ -58,7 +58,7 @@
           "link": ""
         },
         {
-          "image": "./assets/product1.jpg",
+          "image": "/assets/product1.jpg",
           "name": "Samsung Galaxy A26",
           "originalPrice": "$358.00",
           "discountedPrice": "$233.00",
@@ -66,7 +66,7 @@
           "link": ""
         },
         {
-          "image": "./assets/product6.jpg",
+          "image": "/assets/product6.jpg",
           "name": "Google Pixel 10 Pro",
           "originalPrice": "$1,459.00",
           "discountedPrice": "$1,105.99",

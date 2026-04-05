@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Gadget WiFi SG</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,11 +15,11 @@
   <body>
     <header class="site-header">
       <nav class="nav" aria-label="Primary" data-menu-open="false">
-        <a class="brand" href="./index.html" aria-label="Gadget Wi Fi Home">
+        <a class="brand" href="/index.html" aria-label="Gadget Wi Fi Home">
           <span class="logo" aria-hidden="true">
             <img
               class="logo-image"
-              src="./assets/gwlogo5edit.png"
+              src="/assets/gwlogo5edit.png"
               alt="Gadget WiFi Logo"
             />
           </span>
@@ -52,26 +52,40 @@
           <span class="sr-only">Menu</span>
         </button>
         <ul id="primary-navigation" class="nav-links">
-          <li><a href="./deals.html" aria-current="page">Deals</a></li>
-          <li><a href="./monthlydeals.html">Monthly Deals</a></li>
-          <li><a href="./index.html#contact">Contact</a></li>
-          <li><a href="./index.html#blogs">Blogs</a></li>
+          <li><a href="/deals/index.html">Deals</a></li>
+          <li>
+            <a href="/monthly-deals/index.html" aria-current="page"
+              >Monthly Deals</a
+            >
+          </li>
+          <li><a href="/index.html#contact">Contact</a></li>
+          <li><a href="/index.html#blogs">Blogs</a></li>
         </ul>
       </nav>
     </header>
 
-    <main class="deals-page">
-      <section class="deals-grid-section">
+    <main class="deals-page monthly-page">
+      <p class="deals-no-results" id="monthly-no-results" style="display: none">
+        No products match your search.
+      </p>
+      <section class="deals-grid-section" data-monthly-section="0">
         <div class="section-heading">
-          <h2>Latest featured deals</h2>
-          <!-- <p>Handpicked offers with coupon stack suggestions.</p> -->
+          <span class="monthly-label"></span>
         </div>
-        <p class="deals-no-results" id="deals-no-results" style="display: none">
-          No products match your search.
-        </p>
+        <p class="monthly-summary" data-monthly-summary></p>
         <div
           class="products-grid deals-grid"
-          data-fetch-deals="deals.json"
+          data-fetch-monthly="monthlydeals.json"
+        ></div>
+      </section>
+
+      <section class="deals-grid-section" data-monthly-section="1">
+        <div class="section-heading">
+          <span class="monthly-label"></span>
+        </div>
+        <div
+          class="products-grid deals-grid"
+          data-fetch-monthly="monthlydeals.json"
         ></div>
       </section>
     </main>
@@ -88,10 +102,10 @@
         </div>
         <div class="footer-links">
           <span class="footer-heading">Quick Links</span>
-          <a href="./deals.html">Deals</a>
-          <a href="./monthlydeals.html">Monthly Deals</a>
-          <a href="./index.html#about">About</a>
-          <a href="./index.html#blogs">Blogs</a>
+          <a href="/deals/index.html">Deals</a>
+          <a href="/monthly-deals/index.html">Monthly Deals</a>
+          <a href="/index.html#about">About</a>
+          <a href="/index.html#blogs">Blogs</a>
         </div>
         <div class="footer-contact">
           <span class="footer-heading">Stay in touch</span>
@@ -107,6 +121,6 @@
       </div>
     </footer>
 
-    <script src="./script.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>
