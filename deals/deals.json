@@ -17,20 +17,20 @@
       "link": "https://shopee.sg/Google-Pixel-10a-128GB-256GB--i.454919755.44228667447?extraParams=%7B%22display_model_id%22%3A340542500965%2C%22model_selection_logic%22%3Anull%7D"
     },
     {
-      "image": "/assets/product8.jpg",
-      "name": "OnePlus 13",
-      "originalPrice": "$1,199.00",
-      "discountedPrice": "$790.00",
-      "couponDiscount": "Shopee Coupon -$115.00",
-      "link": ""
+      "image": "/assets/s25u.png",
+      "name": "SAMSUNG S25 Ultra",
+      "originalPrice": "$1,828.00",
+      "discountedPrice": "$1488.00",
+      "couponDiscount": "Store: -$300 | Shopee: -$40",
+      "link": "https://shopee.sg/Samsung-Galaxy-S25-Ultra-5G-AI-Phone-i.412971223.26922729535?extraParams=%7B%22display_model_id%22%3A257412482013%2C%22model_selection_logic%22%3A3%7D"
     },
     {
-      "image": "/assets/product6.jpg",
-      "name": "Google Pixel 10 Pro",
-      "originalPrice": "$1,459.00",
-      "discountedPrice": "$1,105.99",
-      "couponDiscount": "Shopee Coupon -$130.00",
-      "link": ""
+      "image": "/assets/sa2.png",
+      "name": "Sennheiser Accentum",
+      "originalPrice": "$269.00",
+      "discountedPrice": "$128.00",
+      "couponDiscount": "Store: -$135 | Shopee: -$5",
+      "link": "https://shopee.sg/Sennheiser-ACCENTUM-Wireless-Headphone-i.56431667.21785412030?extraParams=%7B%22display_model_id%22%3A222146081460%2C%22model_selection_logic%22%3A3%7D&sp_atk=95fcf4f8-d88e-40e8-87c5-eb651842bb9d&xptdk=95fcf4f8-d88e-40e8-87c5-eb651842bb9d"
     }
   ]
 }
